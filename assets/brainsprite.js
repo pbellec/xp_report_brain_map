@@ -405,10 +405,10 @@ function brainsprite(params) {
   // Draw all slices when background/overlay are loaded
   brain.sprite.addEventListener('load', function(){
     brain.drawAll();
-  });
+  }, false);
   brain.overlay.sprite.addEventListener('load', function(){
     brain.drawAll();
-  });
+  }, false);
 
   // Draw all slices
   brain.drawAll();
